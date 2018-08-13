@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ======== ========================================== -->
+   <meta charset="utf-8">
+	<title>Sponsors</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/aos.css">     
+   <link rel="stylesheet" href="css/hover-min.css">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
+
+
+   <!-- script
+   ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+    <script src="js/ajax/eventFinal.js"></script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/Innovision_Logo.png" type="image/png">
+	<link rel="icon" href="images/Innovision_Logo.png" type="image/png">
+
+    <style>
+            
+            *{box-sizing: border-box;}
+            
+            .card{
+                margin: 20px 15px;
+                height: 300px;
+                width: 300px;
+                border: 1px solid;
+                border-radius: 15px;
+                text-align: center;
+                padding-top: 25px;
+                display: inline-block;
+                cursor: pointer;
+                animation-duration: 0.75s;
+            }
+            
+            
+            
+            .hvr-grow {
+              display: inline-block;
+              vertical-align: middle;
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+            }
+            
+            .hvr-grow:hover,
+            .hvr-grow:focus,
+            .hvr-grow:active {
+              -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+            }
+            
+            .hvr-grow-rotate-right {
+              display: inline-block;
+              vertical-align: middle;
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+            }
+            .hvr-grow-rotate-right:hover,
+            .hvr-grow-rotate-right:focus,
+            .hvr-grow-rotate-right:active {
+              -webkit-transform: scale(1.1) rotate(4deg);
+              transform: scale(1.1) rotate(4deg);
+            }
+            
+            .hvr-grow-rotate-left {
+              display: inline-block;
+              vertical-align: middle;
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+            }
+            .hvr-grow-rotate-left:hover,
+            .hvr-grow-rotate-left:focus,
+            .hvr-grow-rotate-left:active {
+              -webkit-transform: scale(1.1) rotate(-4deg);
+              transform: scale(1.1) rotate(-4deg);
+            }
+            
+            .vis{
+                visibility: visible;
+            }
+            
+            
+            .title{
+                margin: 50px;
+                font-size: 40px;
+                color: black!important;
+                animation-duration: 0.75s;
+            }
+            
+            #menu{
+                margin-top: 40px;   
+                list-style-type: none;                  
+            }
+            #menu li{
+                display: inline-block;
+                margin: 10px;
+            }
+
+            #menu li a{
+                text-decoration: none;
+                background-color: rgb(95, 0, 142);
+                color: white;
+                padding: 20px;
+                font-size: 20px;
+            }
+
+            #here{
+              margin-top: 1em;
+              font-size: 2em;
+              padding-top: 2em;
+            }
+
+            #intro{
+              padding-top: 4em;
+              box-sizing: content-box;
+            }
+
+              #portfolio .intro-wrap {
+          padding: 15rem 0 22.5rem;
+          height: 44em;
+          background: black;
+      }
+            
+            @media only screen and (max-width: 768px){
+                #menu li a{
+                    padding: 20px 50px;
+                }
+                .title{
+                    text-align: center;
+                    color: white;
+                }
+                #here{
+                  margin-top:-2.7em;
+                  font-size: 1.8em;
+                  padding-top: 0em;
+            }
+            .gotop{
+                position: fixed;
+                top: 550px;
+                left: 1250px;
+            }
+             #intro{
+              padding-top: 0em;
+            }
+
+              #portfolio .intro-wrap
+             {
+                padding: 15rem 0 22.5rem;
+                height: 45em;
+                background: black;
+              }
+                
+                .spon{
+                    margin: 50px 100px;
+                }
+                
+                #our{
+                    color: red;
+                }
+                
+                
+                
+        }
+            
+         
+
+			.container p{
+                text-align: center;
+            }
+       		
+        
+        
+        .seg{
+			height: auto;
+			width: 100%;
+            border: 1px solid;  
+		}
+        .seg:nth-child(odd){background-color: black;}
+        .seg:nth-child(even){background-color: white;}
+        
+        .segName{
+            font-size: 40px;
+            margin-top: 50px;
+        }
+        
+        #our{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 50px;
+            color: white;
+            margin-top: 50px;
+        }
+        
+        .spon{
+            height: 250px;
+            width: 250px;
+            margin: 30px 50px;
+            display: inline-block;
+        }
+        
+        .sponName{margin: 20px; color: #13B1CD;}
+        .oldspon{
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            margin: 0 20px;
+        }
+        
+        @media only screen and (max-width: 768px){
+            #our{margin-top: 100px;    }
+        }
+
+        </style>
+
+</head>
+
+<body>
+
+	<!-- header 
+   ================================================== -->
+   <header> 
+
+   	<div class="header-logo">
+   		<a id="nitr" href="javascript:void(0)">Infinity</a>
+	     <a id="inno" href="javascript:void(0)">Infinity</a>
+	   </div> 
+
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a> 
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+
+	   	<h3>Innovision'18.</h3>  
+
+			<ul class="nav-list">
+				<li><a style="text-decoration: none;" href="./index.html" title="">Home</a></li>
+				<li class="current"><a  style="text-decoration: none;"class="smoothscroll" href="javascript:void(0)" title="">Events | Workshops | Exhibitions</a></li>
+				<li><a style="text-decoration: none;" href="./faq.html" title="">FAQ | Help</a></li>
+				<!-- <li class="signed_out"><a href="./signInOut.html" title="">Sign In | Sign Up</a></li> -->
+        <!-- <li class="signed_in signout_opt"><a style="text-decoration: none;" href="./index.html" title="">Sign Out</a></li> -->
+        <li>
+          <a style="text-decoration: none;" href="./campus_ambassador_register.html" title="">Campus Ambassador Signup</a>
+        </li> 
+			</ul>
+
+			<!-- <p class="sponsor-text">
+				Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.  -->
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+			<!-- </p>		 -->	
+
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         </li>     
+	      </ul>		
+
+		</nav>  <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->  
+    
+    
+    
+    
+    
+    
+    <section class="seg">	
+		<center>
+            <div class="intro-wrap">
+
+                <div class="row narrow section-intro with-bottom-sep animate-this" >
+                    <div class="col-twelve" id="intro">
+                        
+                        <h1 id="our">Our Sponsors</h1>
+                        	   			
+                    </div>   		
+                </div> <!-- end row section-intro -->
+            </div>
+            
+            
+
+            
+        </center>
+	</section>
+
+	<section class="seg">
+		<center>
+            
+            
+            <a href="https://www.hacksociety.tech/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/hacksociety.png">
+                </div>
+            </a>
+            <a href="https://www.digitalocean.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/digitalOcean.png">
+                </div>
+            </a>
+            <a href="https://get.tech/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/dottech.png">
+                </div>
+            </a>
+            <a href="https://challengerocket.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/challengeRocket.png">
+                </div>
+            </a>
+            <a href="http://advantedge.vc/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/advantedge.jpg">
+                </div>
+            </a>
+            <a href="https://inkmonk.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/Inkmonk.png">
+                </div>
+            </a><a href="https://www.hackerearth.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/hackerearth.png">
+                </div>
+            </a>
+            <a href="https://www.jetbrains.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/jetbrains.png">
+                </div>
+            </a>
+            <a href="https://wolfram.com/" target="_blank">
+                <div class="spon" data-aos="fade-up">
+                    <img src="Logos/wolfarmlanguage.png">
+                </div>
+            </a>
+        </center>
+		
+	</section>
+
+    <section class="seg">
+                        
+        <center>
+            <h1 id="our" style="margin: 100px 0;">Our Previous Sponsors</h1>
+            
+        </center>
+
+    </section>
+    
+    <section class="seg">
+                        
+        <center>
+            
+            <a href="http://www.facorsteel.com/">
+                <div class="oldspon">
+                <img src="Logos/facor.jpg">
+                </div>
+            </a>
+            <a href="https://www.coca-colaindia.com/#">
+                <div class="oldspon">
+                <img src="Logos/coca_cola.png">
+                </div>
+            </a>
+            <a href="https://www.snapdeal.com/">
+                <div class="oldspon">
+                <img src="Logos/snapdeal-new-logo-7591.jpg">
+                </div>
+            </a>
+            <a href="http://www.mayfairhotels.com/">
+                <div class="oldspon">
+                <img src="Logos/mayfair.jpg">
+                </div>
+            </a>
+            <a href="http://www.mahanadicoal.in/Welcome.php">
+                <div class="oldspon">
+                <img src="Logos/mcl.jpg">
+                </div>
+            </a>
+            <a href="http://www.imsindia.com/">
+                <div class="oldspon">
+                <img src="Logos/ims.jpg">
+                </div>
+            </a>
+            <br />
+            
+            <a href="http://www.ovotees.com/">
+                <div class="oldspon">
+                <img src="Logos/ovotees.png">
+                </div>
+            </a>
+            <a href="https://www.nalcoindia.com/">
+                <div class="oldspon">
+                <img src="Logos/nalco.jpg">
+                </div>
+            </a>
+            <a href="https://omcltd.in/">
+                <div class="oldspon">
+                <img src="Logos/OdishaMining_MI.jpg">
+                </div>
+            </a>
+            <a href="https://www.onlinesbi.com/">
+                <div class="oldspon">
+                <img src="Logos/sbi-jobs.jpg">
+                </div>
+            </a>
+            <a href="https://www.iocl.com/">
+                <div class="oldspon">
+                <img src="Logos/Indian-Oil.jpg">
+                </div>
+            </a>    
+            <a href="http://www.wisdomwareindia.com/">
+                <div class="oldspon">
+                <img src="Logos/wisdom.png">
+                </div>
+            </a> 
+            <br />
+             
+            <a href="http://www.sambadepaper.com/epapermain.aspx">
+                <div class="oldspon">
+                <img src="Logos/Sambad_logo.jpg">
+                </div>
+            </a> 
+            <a href="http://www.teeshood.com/">
+                <div class="oldspon">
+                <img src="Logos/teeshood.png">
+                </div>
+            </a>
+            <a href="http://radiochoklateonline.com/">
+                <div class="oldspon">
+                <img src="Logos/radio.png">
+                </div>
+            </a>
+            <a href="https://www.booking.com/hotel/in/radhika-regency.html">
+                <div class="oldspon">
+                <img src="Logos/Radhika-Regency.png">
+                </div>
+            </a>
+            <a href="https://www.facebook.com/rkltips/">
+                <div class="oldspon">
+                <img src="Logos/rourkelaTips.png">
+                </div>
+            </a>
+            <a href="https://www.bhubaneswarbuzz.com/">
+                <div class="oldspon">
+                <img src="Logos/bhubaneswar%20buzz.png">
+                </div>
+            </a>
+            <br />
+                   
+        </center>
+
+    </section>
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+	<!-- footer
+   ================================================== -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#here">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+  
+   	<div class="footer-bottom" style="background-color: #111111">
+            <div class="row">
+            
+            <img src="images/x.png" height="245px" width="160px">
+             
+             
+            <img src="images/n.png" height="134px" width="121px">
+         
+            <div class="col-twelve">
+               <div class="copyright">
+                  <span>©  National Institute of Technology,Rourkela 2018.</span> 
+                  <span>Design by <a href="#">INNO18-TEAM</a></span><br>
+                  <span>All rights reserved.   <a href="Privacy_Policy.pdf" target="_blank"><i class="fa fa-lock"></i>Privacy Policy</a></span>                
+               </div>                     
+            </div>
+
+
+         
+
+      </div> <!-- end footer-bottom -->
+    </div>
+   <!-- Java Script
+   ================================================== --> 
+
+<!--    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+ -->   <!-- <script  src="js/animation.js"></script> -->
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/wow.js"></script>
+
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            
+            <script src="js/wow.js"></script>
+            
+              <script>
+              new WOW().init();
+              </script>
+            
+            <script src="js/aos.js"></script>
+                
+            <script type="text/javascript">
+                AOS.init({
+                    duration: 500,
+                });
+            
+            </script>
+
+            <script>               
+                
+            $(document).ready(function(){
+                
+                $(".scroll").click(function(event){
+                    event.preventDefault();
+                    
+                    $("body,html").animate({
+                        scrollTop: $(this.hash).offset().top
+                    }, 1000)
+                    
+                });
+            });
+
+            </script>
+            <script>
+              $(document).ready(function(){
+                if(localStorage.innoID == null || localStorage.innoID == "" || !(localStorage.innoID))
+                {
+                    $(".signed_out").css("display", "block");
+                    $(".signed_in").css("display", "none");
+                }
+                else{
+                    $(".signed_in").css("display", "block");
+                    $(".signed_out").css("display", "none"); 
+                }
+              });
+              $(document).on("click", "[href='javascript:void(0)']" , function(){
+                  localStorage.eid = $(this)[0].attributes[1].value;
+                  location.replace("event_individual.html");
+              });
+            </script>
+ 
+</body>
+
+</html>
